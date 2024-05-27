@@ -15,7 +15,7 @@ body {
 
 a {
     color: white;
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 /* ---------- Header and Navbar --------- */
@@ -191,7 +191,7 @@ video {
 /* --------- img-1 ------- */
 
 .section-3 .img-1 {
-    background-image: url(/img/rolex-watch1.avif);
+    background-image: url(img/rolex-watch1.avif);
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -224,7 +224,7 @@ video {
 
 /* ----------- Img-2 -------- */
 .section-3 .img-2 {
-    background-image: url(/img/rolex-watch2.avif);
+    background-image: url(img/rolex-watch2.avif);
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
@@ -257,7 +257,7 @@ video {
 
 /* ----------- Img-3 -------- */
 .section-3 .img-3 {
-    background-image: url(/img/rolex-watch3.avif);
+    background-image: url(img/rolex-watch3.avif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
@@ -290,7 +290,7 @@ video {
 
 /* ----------- Img-4 -------- */
 .section-3 .img-4 {
-    background-image: url(/img/rolex-watch4.avif);
+    background-image: url(img/rolex-watch4.avif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
@@ -323,7 +323,7 @@ video {
 
 /* ----------- Img-5 -------- */
 .section-3 .img-5 {
-    background-image: url(/img/rolex-watch5.avif);
+    background-image: url(img/rolex-watch5.avif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
@@ -356,7 +356,7 @@ video {
 
 /* ----------- Img-6 -------- */
 .section-3 .img-6 {
-    background-image: url(/img/rolex-watch6.avif);
+    background-image: url(img/rolex-watch6.avif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
@@ -389,7 +389,7 @@ video {
 
 /* ----------- Img-7 -------- */
 .section-3 .img-7 {
-    background-image: url(/img/rolex-watch7.avif);
+    background-image: url(img/rolex-watch7.avif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
@@ -422,7 +422,7 @@ video {
 
 /* ----------- Img-8 -------- */
 .section-3 .img-8 {
-    background-image: url(/img/rolex-watch8.avif);
+    background-image: url(img/rolex-watch8.avif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
@@ -455,7 +455,7 @@ video {
 
 /* ----------- Img-9 -------- */
 .section-3 .img-9 {
-    background-image: url(/img/rolex-watch9.avif);
+    background-image: url(img/rolex-watch9.avif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
@@ -488,7 +488,7 @@ video {
 
 /* ----------- Img-10 -------- */
 .section-3 .img-10 {
-    background-image: url(/img/rolex-watch10.avif);
+    background-image: url(img/rolex-watch10.avif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
@@ -521,7 +521,7 @@ video {
 
 /* ----------- Img-11 -------- */
 .section-3 .img-11 {
-    background-image: url(/img/rolex-watch11.avif);
+    background-image: url(img/rolex-watch11.avif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
