@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    height: 1250vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ---------- Header and Navbar --------- */
+
+header {
+    background-image: linear-gradient(to right, #145c3a, #05523f);
+    height: 12vh;
+    display: grid;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+header .menu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 33.3vw;
+    color: white;
+    font-size: 1vw;
+}
+
+header .icons {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 33.3vw;
+}
+
+header .icons div {
+    display: flex;
+}
+
+header .icons .all-icons div {
+    margin: 0 20px;
+    font-size: 1vw;
+    color: white;
+}
+
+header .icons .all-icons i {
+    margin: 0 5px;
+}
+
+
+/* ------------ Img logo ----------- */
+
+header nav .img-logo {
+    display: grid;
+    justify-content: center;
+    width: 33.3vw;
+    align-items: center;
+}
+
+
+/* ------------ Section-1 ------------ */
+
+.section-1 div video {
+    position: absolute;
+    z-index: -1;
+}
+
+.section-1 div .text p {
+    text-align: center;
+    font-size: 1.4vw;
+    color: white;
+    text-transform: uppercase;
+}
+
+.section-1 div .text h2 {
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+
+}
+
+.section-1 div .text a {
+    position: absolute;
+    top: 76vh;
+    left: 45.3vw;
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+
+.section-1 div .text a:hover {
+    color: rgb(232, 224, 224);
+}
+
+.section-1 .text {
+    margin-top: 17vh;
+}
+
+/* ------------ Video ------------ */
+video {
+    width: 100vw;
+    margin-top: -18vh;
+}
+
+.rolex-collection {
+    width: 100vw;
+    height: 47vh;
+    background-color: white;
+    margin-top: 43vh;
+}
+
+.rolex-collection .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13vh;
+}
+
+.container p {
+    font-size: 3vw;
+    width: 35vw;
+    color: #077056;
+    font-weight: 500;
+}
+
+.container .box-1 p {
+    font-size: 1vw;
+    color: black;
+    font-size: 1.25vw;
+    height: 18vh;
+    line-height: 4vh;
+    font-weight: 300;
+}
+
+.container .box-1 a {
+    color: #08785c;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+/* --------------- Section 2 (here is the problem) -------------- */
+.section-2 {
+    position: sticky !important;
+    top: 0;
+}
+
+.section-2 .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+}
+
+.section-2 .navbar a {
+    margin: 0 5vh;
+    font-weight: bold;
+}
+
+.section-2 .navbar a:first-child {
+    color: #077056;
+}
+
+.section-2 .navbar a span {
+    position: absolute;
+    transform: translate(5px, 5px);
+    width: 1.1vh;
+    height: 1.1vh;
+    border-radius: 40px;
+    background-color: #077056;
+}
+
+.section-2 .navbar a {
+    color: black;
+}
+
+/* ---------------- Section 3 ----------- */
+/* --------- img-1 ------- */
+
+.section-3 .img-1 {
+    background-image: url(/img/rolex-watch1.avif);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.section-3 .text-1 {
+    margin: 400px 0 0 100px;
+}
+
+.section-3 .text-1 h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.section-3 .text-1 p {
+    font-size: 35px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-1 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* ----------- Img-2 -------- */
+.section-3 .img-2 {
+    background-image: url(/img/rolex-watch2.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -107px;
+}
+
+.section-3 .text-2 {
+    margin: 370px 0 0 100px;
+}
+
+.section-3 .text-2 h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.section-3 .text-2 p {
+    font-size: 35px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-2 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* ----------- Img-3 -------- */
+.section-3 .img-3 {
+    background-image: url(/img/rolex-watch3.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -107px;
+}
+
+.section-3 .text-3 {
+    margin: 370px 0 0 100px;
+}
+
+.section-3 .text-3 h1 {
+    font-size: 45px;
+    color: rgb(35, 35, 35);
+}
+
+.section-3 .text-3 p {
+    font-size: 32px;
+    color: black;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-3 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+/* ----------- Img-4 -------- */
+.section-3 .img-4 {
+    background-image: url(/img/rolex-watch4.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -108px;
+}
+
+.section-3 .text-4 {
+    margin: 370px 0 0 100px;
+}
+
+.section-3 .text-4 h1 {
+    font-size: 45px;
+    color: rgb(35, 35, 35);
+}
+
+.section-3 .text-4 p {
+    font-size: 32px;
+    color: black;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-4 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+/* ----------- Img-5 -------- */
+.section-3 .img-5 {
+    background-image: url(/img/rolex-watch5.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -108px;
+}
+
+.section-3 .text-5 {
+    margin: 370px 0 0 100px;
+}
+
+.section-3 .text-5 h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.section-3 .text-5 p {
+    font-size: 32px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-5 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* ----------- Img-6 -------- */
+.section-3 .img-6 {
+    background-image: url(/img/rolex-watch6.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -108px;
+}
+
+.section-3 .text-6 {
+    margin: 370px 0 0 100px;
+}
+
+.section-3 .text-6 h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.section-3 .text-6 p {
+    font-size: 32px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-6 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* ----------- Img-7 -------- */
+.section-3 .img-7 {
+    background-image: url(/img/rolex-watch7.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -108px;
+}
+
+.section-3 .text-7 {
+    margin: 370px 0 0 100px;
+}
+
+.section-3 .text-7 h1 {
+    font-size: 45px;
+    color: rgb(35, 35, 35);
+}
+
+.section-3 .text-7 p {
+    font-size: 32px;
+    color: rgb(35, 35, 35);
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-7 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+}
+
+/* ----------- Img-8 -------- */
+.section-3 .img-8 {
+    background-image: url(/img/rolex-watch8.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -108px;
+}
+
+.section-3 .text-8 {
+    margin: 370px 0 0 100px;
+}
+
+.section-3 .text-8 h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.section-3 .text-8 p {
+    font-size: 32px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-8 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* ----------- Img-9 -------- */
+.section-3 .img-9 {
+    background-image: url(/img/rolex-watch9.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -108px;
+}
+
+.section-3 .text-9 {
+    margin: 370px 0 0 100px;
+}
+
+.section-3 .text-9 h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.section-3 .text-9 p {
+    font-size: 32px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-9 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* ----------- Img-10 -------- */
+.section-3 .img-10 {
+    background-image: url(/img/rolex-watch10.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -108px;
+}
+
+.section-3 .text-10 {
+    margin: 370px 0 0 100px;
+}
+
+.section-3 .text-10 h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.section-3 .text-10 p {
+    font-size: 32px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-10 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* ----------- Img-11 -------- */
+.section-3 .img-11 {
+    background-image: url(/img/rolex-watch11.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -108px;
+}
+
+.section-3 .text-11 {
+    margin: 370px 0 0 100px;
+}
+
+.section-3 .text-11 h1 {
+    font-size: 45px;
+    color: rgb(35, 35, 35);
+}
+
+.section-3 .text-11 p {
+    font-size: 32px;
+    color: rgb(35, 35, 35);
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-3 .text-11 a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+}
+
+/* ------------- Footer ------------ */
+footer {
+    margin-top: -90px;
+    padding: 80px 0 0 120px;
+}
+
+
+footer li {
+    list-style-type: none;
+    margin-top: 13px;
+}
+
+footer .container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 100px;
+}
+
+footer p span {
+    color: #05523f;
+}
+
+footer p:nth-child(1) {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer p:nth-child(2) {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+footer p:nth-child(2) i {
+    position: relative;
+    top: 3px;
+    margin-left: 30px;
+}
+
+footer .container-footer img {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+/* ------------- Rolex Watches ---------- */
+footer .container-footer .rolex-watches {
+    grid-row: 1;
+    grid-column: 2;
+    /* margin-top: 13px; */
+}
+
+/* -------------- Rolex and Sports ----------- */
+footer .container-footer .rolex-and-sports {
+    grid-row: 1;
+    grid-column: 3;
+    /* margin-top: 13px; */
+}
+
+footer .container-footer .perpetual-initiatives,
+.about-rolex,
+.buying-a-rolex,
+.care-and-sevicing {
+    margin-top: 30px;
+}
+
+/* ------------- Services ------------- */
+footer .container-footer .services {
+    grid-row: 1;
+    grid-column: 4;
+    /* margin-top: 13px; */
+}
+
+footer .container-footer .services .legal-notce,
+.accessibility,
+.media,
+.official-channels {
+    margin-top: 30px;
+}
+
+.official-channels i {
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.official-channels span {
+    position: relative;
+    top: -2.5px;
+    margin-left: 10px;
+
+}
+
+/* -------------- The Collectin --------- */
+footer .container-footer .the-collection {
+    margin-top: 30px;
+}
+
+/* ---------- End Footer -------- */
+footer .end-footer hr{
+    border: solid 1px gray;
+    width: 85vw;
+    margin-top: 50px;
+}
+
+footer .end-footer span{
+   position: relative;
+   top: -2.5px;
+   left: 10px;
+}
+
+footer .end-footer div{
+    margin-top: 30px;
+}
