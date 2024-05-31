@@ -1,0 +1,69 @@
+@media (max-width:576px) {
+    * {
+        overflow-x: unset;
+    }
+
+    header nav .menu a {
+        display: none;
+    }
+
+    header nav .menu .burger-button {
+        display: block;
+    }
+
+    header nav .icons .all-icons div a i {
+        font-size: 15px;
+    }
+
+    header nav .icons .all-icons div a span {
+        display: none;
+    }
+
+    header .icons .all-icons div {
+        margin: 0 5px;
+    }
+    /* ----------- Section 1 ---------- */
+    .section-1 div .text p {
+        position: relative;
+        top: -50px;
+        font-size: 2.5vw;
+    }
+    .section-1 div .text h2 {
+        position: relative;
+        top: -50px;
+        font-size: 7vw;
+    }
+    .section-1 div .text a {
+        position: relative;
+        top: -5px;
+        left: 40vw;
+        font-size: 2vw;
+    }
+    .rolex-collection {
+        margin-top: 22vh;
+    }
+    .container p {
+        font-size: 40px;
+        margin-left: 20px;
+        width: 200px;
+        /* width: 35vw; */
+    }
+    .container .box-1 p {
+        font-size: 17px !important;
+        text-align: center;
+        margin-left: 100px;
+        margin-top: 4vh;
+        width: 200px;
+        line-height: normal;
+    }
+    .container .box-1 a {
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 17px;
+        margin-left: 50px;
+    }
+    .rolex-collection .container {
+        display: block;
+        margin-top: -6vh;
+    }
+}
