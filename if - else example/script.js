@@ -1,13 +1,13 @@
-// // ------------ My-Task-1  --->  (İstifadəçi yaşını yoxlayın) 
-// while (true) {
-//     const age = Number(prompt("Yaşınızı daxil edin:"));
+// ------------ My-Task-1  --->  (İstifadəçi yaşını yoxlayın) 
+while (true) {
+    const age = Number(prompt("Yaşınızı daxil edin:"));
 
-//     if (age > 18) {
-//         alert("Yetkinlik yaşınıza çatmısınız..");
-//     } else {
-//         alert("Yetkinlik yaşınıza çatmamısınız!!");
-//     }
-// }
+    if (age > 18) {
+        alert("Yetkinlik yaşınıza çatmısınız..");
+    } else {
+        alert("Yetkinlik yaşınıza çatmamısınız!!");
+    }
+}
 
 
 
