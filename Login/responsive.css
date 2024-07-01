@@ -1,0 +1,20 @@
+@media (min-width:250px) {
+    .container-img{
+        display: none;
+    }
+    .container-form{
+        width: 300px;
+    }
+    .container-form form input{
+        width: 180px;
+    }
+    .container-form form button{
+        margin-left: 50px !important;
+        margin-top: 70px !important;
+    }
+}
+@media (min-width:850px) {
+    .container-img{
+        display: block;
+    }
+}

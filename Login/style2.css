@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+MX:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+MX:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    scrollbar-width: thin;
+}
+
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;  
+}
+.container-icons{
+   position: fixed;
+}
+.container-icons h3{
+    font-size: 20px;
+    font-family: "Playwrite MX", cursive;
+    margin-bottom: 15px;
+}
+.container-icons span{
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-left: 10px
+}
+.container-icons i{
+    font-size: 22px;
+    margin-top: 18px;
+}
+.container-icons i, .container-icons span{
+    cursor: pointer;
+}
+.container-icons .fa-threads{
+    margin-top: 50px;
+}
+
+/* --------- Content -------- */
+.content{
+    position: relative;
+    left: 280px;
+}
+.person{
+    display: flex;
+    justify-content: center;
+}
+.content .person .img-1{
+    background-image: url("kapitalBankLogo.png");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50px;
+    border: solid 3px rgb(189, 157, 157);
+    cursor: pointer;
+}
+.content .person .img-2{
+    background-image: url("man-two.jpg");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    border: solid 3px rgb(189, 157, 157);
+    margin:0 20px;
+    cursor: pointer;
+}
+.content .person .img-3{
+    background-image: url("AbbLogo.jpg");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    border: solid 3px rgb(189, 157, 157);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.content .person .img-4{
+    background-image: url("man-one.jpg");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    border: solid 3px rgb(189, 157, 157);
+    cursor: pointer;
+}
+.content .person .img-5{
+    background-image: url("man-five.jpg");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    border: solid 3px rgb(189, 157, 157);
+    margin:0 20px;
+    cursor: pointer;
+}
+.content .person .img-6{
+    background-image: url("man-four.jpeg");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    border: solid 3px rgb(189, 157, 157);
+    cursor: pointer;
+}
+
+/* ----------- Videos ------------ */
+.videos{
+    display: grid;
+    justify-content: center;
+    margin-top: 60px;
+}
+.videos .post-1 .img-one{
+    background-image: url("man-tree.jpg");
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+    border: solid 2px black;
+}
+
+.videos .post-1 p{
+    position: relative;
+    left: 60px;
+    bottom: 32px;
+    font-weight: bold;
+}
+.videos .post-2, .post-3{
+    margin-top: 50px;
+}
+.videos .post-2 .img-two{
+    background-image: url("man-two.jpg");
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+    border: solid 2px black;
+}
+.videos .post-2 p{
+    position: relative;
+    left: 60px;
+    bottom: 32px;
+    font-weight: bold;
+}
+.videos .post-3 .img-three{
+    background-image: url("man-four.jpeg");
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+    border: solid 2px black;
+}
+.videos .post-3 p{
+    position: relative;
+    left: 60px;
+    bottom: 32px;
+    font-weight: bold;
+}
+.post-1, .post-2, .post-3{
+    cursor: pointer;
+}
+/* --------- Me -------- */
+.main-container .itsMe{
+    background-image: url("me.jpeg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 350px;
+    border-radius: 500px;
+}
+.main-container .itsMe p{
+    position: relative;
+    top: 220px;
+    left: 30px;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-style: italic;
+}

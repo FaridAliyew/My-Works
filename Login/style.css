@@ -1,0 +1,82 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body{
+        background-image: linear-gradient(to bottom right, #17013e, #da44d5, rgb(93, 13, 146));
+        background-repeat: no-repeat;
+    }
+
+    .main-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        height: 97.8vh;
+        align-items: center;      
+    }
+    
+    /* -------- form --------- */
+    .container-form{
+        background-color: white;
+        height: 500px;
+        width: 370px;
+        margin-bottom: 5px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.176);
+    }
+
+    /* --------- p ---------- */
+    .main-container .container-form form p {
+        opacity: 0.5;
+        cursor: pointer;
+        margin: 20px 0 0 55px;
+    }
+
+    /* --------- input -------- */
+    .main-container .container-form form input {
+        font-size: 22px;
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: none;
+        margin: 20px 0 0 55px;
+    }
+
+    /* -------- input:focus --------- */
+    .main-container .container-form form input:focus {
+        outline: none;
+    }
+
+    /* ---------- h1 --------- */
+    .main-container .container-form h1 {
+        font-family: "Roboto";
+        text-align: center;
+        color: rgb(94, 13, 170);
+        margin-top: 90px;
+        color: transparent;
+        background: linear-gradient(to right, #531d8d, #bd2fe4);
+        background-clip: text;
+        animation: slide 3.5s linear infinite;
+    }
+
+    /* --------- Button ------- */
+    .main-container .container-form form button {
+        background-color: blueviolet;
+        border: none;
+        padding: 10px;
+        width: 200px;
+        margin-top: 25px;
+        cursor: pointer;
+        border-radius: 16px;
+        color: white;
+        font-weight: 600;
+        margin-left: 75px;
+        background: linear-gradient(to right, #6628a8, #a826cd);
+        animation: slide2 8s linear infinite;
+    }
+
+    /* -------- Animation ------ */
+    @keyframes slide {
+        to{background-position-x: 400px;}
+    }
+    @keyframes slide2 {
+        to{background-position-x: 400px;}
+    }

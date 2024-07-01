@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container-icons">
+            <h3>Instagram</h3>
+            <i class="fa-solid fa-house"></i> <span>Home</span> <br> <br>
+            <i class="fa-solid fa-magnifying-glass"></i> <span>Search</span> <br> <br>
+            <i class="fa-regular fa-compass"></i> <span>Explore</span> <br> <br>
+            <i class="fa-solid fa-film"></i> <span>Reels</span> <br> <br>
+            <i class="fa-regular fa-envelope"></i> <span>Messages</span> <br> <br>
+            <i class="fa-regular fa-heart"></i> <span>Notifications</span> <br> <br>
+            <i class="fa-regular fa-square-plus"> </i> <span>Create</span> <br> <br>
+            <i class="fa-regular fa-user"></i> <span>Profile</span> <br> <br>
+
+            <i class="fa-brands fa-threads"></i> <span>Threads</span> <br> <br>
+            <i class="fa-solid fa-bars"></i> <span>More</span>
+        </div>
+
+        <!-- -------------------- -->
+        <div class="content">
+            <div class="person">
+                <div class="img-1"></div>
+                <div class="img-2"></div>
+                <div class="img-3"></div>
+                <div class="img-4"></div>
+                <div class="img-5"></div>
+                <div class="img-6"></div>
+            </div>
+
+            <div class="videos">
+                <div class="post-1">
+                    <div class="img-one"></div>
+                    <p>Leonardo21</p>
+                    <video src="video-One.mp4" width="450px" class="video1" autoplay muted loop></video> <br>
+                    <i class="fa-regular fa-heart" style="font-size: 25px; margin-top: 5px;"></i>
+                    <i class="fa-regular fa-comment" style="font-size: 25px; margin-left: 12px;"></i>
+                    <i class="fa-solid fa-share-nodes" style="font-size: 25px; margin-left: 12px;"></i>
+                    <i class="fa-regular fa-bookmark" style="font-size: 25px; margin-left: 12px; position: relative; left: 20.2vw;"></i>
+                </div>
+
+                <div class="post-2">
+                    <div class="img-two"></div>
+                    <p>Henry77</p>
+                    <video src="video-two.mp4" width="450px" class="video2" autoplay muted loop></video> <br>
+                    <i class="fa-regular fa-heart" style="font-size: 25px; margin-top: 5px;"></i>
+                    <i class="fa-regular fa-comment" style="font-size: 25px; margin-left: 12px;"></i>
+                    <i class="fa-solid fa-share-nodes" style="font-size: 25px; margin-left: 12px;"></i>
+                    <i class="fa-regular fa-bookmark" style="font-size: 25px; margin-left: 12px; position: relative; left: 20.2vw;"></i>
+                </div>
+
+                <div class="post-3">
+                    <div class="img-three"></div>
+                    <p>Jack55</p>
+                    <video src="video-three.mp4" width="450px" class="video2" autoplay muted loop></video> <br>
+                    <i class="fa-regular fa-heart" style="font-size: 25px; margin-top: 5px;"></i>
+                    <i class="fa-regular fa-comment" style="font-size: 25px; margin-left: 12px;"></i>
+                    <i class="fa-solid fa-share-nodes" style="font-size: 25px; margin-left: 12px;"></i>
+                    <i class="fa-regular fa-bookmark" style="font-size: 25px; margin-left: 12px; position: relative; left: 20.2vw;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="itsMe">
+            <div class="imgMe"></div>
+            <p>Welcome Mr Aliyev</p>
+            <div id="myDiv" style="position: fixed; top:95vh; right: 2vw; cursor: pointer;">
+                <i class="fa-solid fa-circle-half-stroke" style="margin-right: 10px; font-size: 20px;"></i><span
+                    id="dark">Dark Mode</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        let darkMode1 = document.getElementById("myDiv");
+        darkMode1.addEventListener("click", darkMode);
+
+        function darkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>
